@@ -1,9 +1,13 @@
 <script lang="ts">
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+  import NavBar from './lib/NavBar.svelte';
 </script>
 
 <main>
+  <div class="navbar">
+  <NavBar/>
+  </div>
   <div>
     <a href="https://vitejs.dev" target="_blank"> 
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
