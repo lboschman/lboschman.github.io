@@ -1,41 +1,18 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
-  import NavBar from './lib/NavBar.svelte';
+  import Navbar from "./Components/Navbar/Navbar.svelte";
+  import About from "./Components/About/About.svelte";
+  import Footer from "./Components/Footer/Footer.svelte";
+  import DATA from "./Data/data";
 </script>
 
 <main>
-  <div class="navbar">
-  <NavBar/>
-  </div>
+  <Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
 
+  <About aboutData={DATA.ABOUT_DATA} />
 
-  <div class="card">
-    <Counter />
-  </div>
-
-  <!-- <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p> -->
+  <Footer />
 </main>
 
 <style>
-  /* .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
-  } */
+
 </style>
