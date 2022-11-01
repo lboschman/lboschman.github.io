@@ -32,6 +32,10 @@
 </section>
 
 <style>
+  .navbar-brand {
+    color: #080
+  }
+
     #nav-bar {
       position: sticky;
       top: 0;
