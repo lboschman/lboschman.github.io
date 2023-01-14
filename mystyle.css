@@ -3,6 +3,13 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-div {
-  width: 640px;
+div.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.content-layer {
+  width: 60%;
+  text-align: center;
 }
