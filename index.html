@@ -41,11 +41,14 @@
               <li>Docker</li>
             </ul>
           </div>
-
           <div id="footer-layer" class="content-layer">
-            <a href="https://www.linkedin.com/in/leon-boschman">LinkedIn</a>
-            &#9679; <a href="https://github.com/lboschman">GitHub</a>
+            <div id="footer-placeholder"></div>
           </div>
+          <script>
+            $(function(){
+              $("#footer-placeholder").load("footer.html");
+            });
+          </script>
         </div>
       </div>
     </div>

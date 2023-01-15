@@ -31,3 +31,17 @@ div#navbar ul li a {
   display: block;
   padding: 8px;
 }
+
+/* Layout for the footer */
+div.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #dddddd;
+  overflow: hidden;
+}
+
+div.footer-item {
+  padding: 8px;
+}
