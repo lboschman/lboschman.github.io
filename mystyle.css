@@ -13,3 +13,21 @@ div.content-layer {
   width: 60%;
   text-align: center;
 }
+
+/* Layout for the navbar */
+div#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #dddddd;
+  overflow: hidden;
+}
+
+div#navbar ul li {
+  float: left;
+}
+
+div#navbar ul li a {
+  display: block;
+  padding: 8px;
+}
